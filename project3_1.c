@@ -55,7 +55,7 @@ int searchVideoByTitle(VideoInfo *videoList, int videoCount, char *title)
 			else
 				return 0;
 		}
-	return i;
+	return -1;
 
 } 
 void rentVideo(VideoInfo videoList[], int videoCount, RentInfo rentList[], int *rentCount, char *title, int custId) 
