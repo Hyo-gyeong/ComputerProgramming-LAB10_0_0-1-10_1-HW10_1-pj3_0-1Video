@@ -44,7 +44,7 @@ void purchaseVideo(VideoInfo videoList[], int *videoCountPtr, char *title, int q
 	}
 	
 } 
-int searchVideoByTitle(VideoInfo *videoList, int videoCount, char *title)
+int searchVideoByTitle(VideoInfo *videoList, int videoCount, char *title)//배열 형태의 문자열, 문자열 포인터 등 문자열의 저장 방식은 문자열 비교에 영향을 주지 않음
 {
 	int i;
 
