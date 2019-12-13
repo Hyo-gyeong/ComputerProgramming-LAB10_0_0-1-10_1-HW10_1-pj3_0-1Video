@@ -107,7 +107,8 @@ int main(void)
 			printf("Enter video 제목: ");                
 			scanf("%s", title);                
 			printf("Enter video 수량: ");          
-			scanf("%d", &qty); purchaseVideo(videoList, &videoCount, title, qty);
+			scanf("%d", &qty); 
+			purchaseVideo(videoList, &videoCount, title, qty);
 			break;
 		case 3: 
 			printf("Enter video 제목: ");  
